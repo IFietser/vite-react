@@ -15,17 +15,17 @@ export default function Navbar() {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <NavLink to="/" className={({isActive}) => "nav-link" + (isActive ? " active" : "")} end>
-                Inicio
+                Home
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/galeria" className={({isActive}) => "nav-link" + (isActive ? " active" : "")}>
-                Galería
+                Nuestra Historia
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/confirmacion" className={({isActive}) => "nav-link" + (isActive ? " active" : "")}>
-                Confirmación
+                Confirma aqui tu asistencia
               </NavLink>
             </li>
           </ul>

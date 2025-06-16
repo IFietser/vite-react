@@ -1,0 +1,6 @@
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover; /* Mantiene el aspecto y recorta si es necesario */
+
+}

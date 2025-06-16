@@ -1,17 +1,20 @@
+//Importamos los componentes necesarios
+
 import "../css/Home.css";
 import Carousel1 from "../components/Carousel1";
 import Carousel2 from "../components/Carousel2";
+
 
 export default function Home() {
   return (
     <section className="container mt-5">
       <div>
         <h1 className="titulo mb-4">Bienvenidos a nuestro matrimonio</h1>
-        <h3 className="text-center">¡Estamos felices de compartir este día tan especial con ustedes!</h3>
+        <h3 className="text-center titulo-secundario">¡Estamos felices de compartir este día tan especial con ustedes!</h3>
       </div>
       <div className="row mt-5 align-items-center">
         <div className="col-md-7">
-          <p style={{ fontSize: "1.2rem" }}>
+          <p className="texto-home">
             Aquí encontrarás toda la información sobre nuestra boda, desde la fecha y el lugar hasta los detalles del evento. ¡Esperamos verte allí para celebrar juntos!
           </p>
         </div>
@@ -28,7 +31,7 @@ export default function Home() {
           </div>
         </div>
         <div className="col-md-7">
-          <p style={{ fontSize: "1.2rem" }}>
+          <p className="texto-home">
             Aquí encontrarás toda la información sobre nuestra boda, desde la fecha y el lugar hasta los detalles del evento. ¡Esperamos verte allí para celebrar juntos!
           </p>
         </div>

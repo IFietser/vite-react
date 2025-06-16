@@ -1,43 +1,32 @@
+// Importamos los componentes necesarios de React y Bootstrap
 import Carousel from 'react-bootstrap/Carousel';
-import ejemplo from "../assets/ejemplo.jpg";
-
+//Importamos las fotos
+import foto1 from "../assets/3.jpg";
+import foto2 from "../assets/5.jpg";
+import foto3 from "../assets/14.jpg";
 function Carousel1() {
   return (
     <Carousel fade>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={ejemplo}
+          src={foto1}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3 style={{ color: 'black' }}>pico</h3>
-          <p style={{ color: 'black' }}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={ejemplo}
+          src={foto2}
           alt="Second slide"
         />
-        <Carousel.Caption>
-          <h3 style={{ color: 'black' }}>Second slide label</h3>
-          <p style={{ color: 'black' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={ejemplo}
+          src={foto3}
           alt="Third slide"
         />
-        <Carousel.Caption>
-          <h3 style={{color: 'black' }}>Picooo</h3>
-          <p style={{ color: 'black' }}>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );

@@ -22,3 +22,14 @@
   border-radius: 2rem; /* Ajusta el valor según el nivel de redondeo que desees */
   overflow: hidden;
 }
+.texto-home {
+  color: #545646 !important;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  text-align: justify;
+  font-weight: bold;
+}
+.titulo-secundario {
+  color:#e7ad8f !important;
+  font-family: 'Cormorant Garamond', serif;
+}
