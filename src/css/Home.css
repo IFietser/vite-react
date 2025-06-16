@@ -1,0 +1,11 @@
+.titulo{
+ color: #545646 !important;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: #d7c6ad;    /* Color de fondo del óvalo */
+  border-radius: 999px;         /* Hace el fondo ovalado */
+  padding: 0.3em 1em;           /* Espaciado interno para el óvalo */
+  text-decoration: none;        /* Opcional: quita el subrayado */
+  transition: background 0.2s;
+  text-align: center;
+}

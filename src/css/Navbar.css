@@ -1,0 +1,32 @@
+.nombres{
+    color:  #d7c6ad;
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    
+}
+.nombres:hover {
+    color:  #545646;
+}
+.nav-item{
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.nav-link.active {
+  color: #545646 !important;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: #d7c6ad;    /* Color de fondo del óvalo */
+  border-radius: 999px;         /* Hace el fondo ovalado */
+  padding: 0.3em 1em;           /* Espaciado interno para el óvalo */
+  text-decoration: none;        /* Opcional: quita el subrayado */
+  transition: background 0.2s;
+
+}
+.navbar-brand{
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
