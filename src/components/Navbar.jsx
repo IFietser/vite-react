@@ -19,7 +19,7 @@ export default function Navbar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/galeria" className={({isActive}) => "nav-link" + (isActive ? " active" : "")}>
+              <NavLink to="/historia" className={({isActive}) => "nav-link" + (isActive ? " active" : "")}>
                 Nuestra Historia
               </NavLink>
             </li>

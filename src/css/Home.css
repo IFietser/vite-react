@@ -27,9 +27,36 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 2rem;
   text-align: justify;
-  font-weight: bold;
+
+   background-color: #d7c6ad;    /* Color de fondo del óvalo */
+  border-radius: 20px;   
+    padding: 0.3em 1em;  
+      /* Hace el fondo ovalado */
 }
 .titulo-secundario {
-  color:#e7ad8f !important;
+  color:#545646  !important;
   font-family: 'Cormorant Garamond', serif;
+}
+
+.subrayado {
+  color: #545646 !important;
+  text-decoration: underline;
+  text-decoration-color: #545646 !important; /* Cambia aquí el color del subrayado */
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
+  cursor: pointer;
+}
+.taty img {
+  border-radius: 999px;
+  width: 400px;      /* Ajusta el tamaño según lo que necesites */
+  height: auto;
+  object-fit: cover;
+  display: inline-block;
+}
+.itinerario img{
+ border-radius: 50px;
+  width: 400px;      /* Ajusta el tamaño según lo que necesites */
+  height: auto;
+  object-fit: cover;
+  display: inline-block;
 }

@@ -1,3 +1,7 @@
 body {
 background-color: #9a8879 !important;
+  background-image: url('../assets/fondo.png'); /* Cambia esto por la ruta real */
+  background-size: cover; /* o "repeat" si quieres que se repita como patrón */
+  background-repeat: no-repeat;
+  background-position: center;
 }

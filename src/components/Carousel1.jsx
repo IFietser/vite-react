@@ -1,7 +1,7 @@
 // Importamos los componentes necesarios de React y Bootstrap
 import Carousel from 'react-bootstrap/Carousel';
 //Importamos las fotos
-import foto1 from "../assets/3.jpg";
+import foto1 from "../assets/11.jpg";
 import foto2 from "../assets/5.jpg";
 import foto3 from "../assets/14.jpg";
 function Carousel1() {

@@ -1,14 +1,13 @@
 .nombres{
-    color:  #d7c6ad;
+    color:  #545646;
     font-size: 2rem;
     margin: 0;
     font-family: 'Cormorant Garamond', serif;
     text-decoration: none;
     
 }
-.nombres:hover {
-    color:  #545646;
-}
+
+
 .nav-item{
     font-family: Georgia, serif;
     font-weight: bold;
