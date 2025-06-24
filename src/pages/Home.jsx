@@ -102,7 +102,7 @@ useEffect(() => {
             <p className="asistencia-text slide-in-top">Por eso, en vez de regalos materiales, si desean acompañarnos con un detalle, les dejaremos un link, donde podrán hacernos un regalo especial en forma de aporte. Ese gesto será parte de nuestros nuevos sueños, de los viajes por venir y de los recuerdos que construiremos juntos como familia.
             </p><br />
              <a className="confirma-btn slide-in-top" href="https://milistadenovios.cl/enviar-regalo?id=27278" target="blank">Link de regalos</a>
-            <p className="asistencia-text slide-in-right">Si se les complica mucho hacerlo por la página, también pueden hacernos llegar su cariño a través de una transferencia bancaria
+            <p className="asistencia-text slide-in-right">Si les complica mucho hacerlo por la página, también pueden hacernos llegar su cariño a través de una transferencia bancaria
             </p><br />
           <img  className = "slide-in-bottom"src={Cuenta} alt="" style={{ maxWidth: "100%", borderRadius: "16px" }} /> <br /><br />
           <a className="confirma-btn slide-in-top" href="https://1drv.ms/f/c/31fad279eb47ff7f/En-TdRIFZOZGgr8UbJVGY54BHhWMeQWcYAq_Vq6JSezvLg?e=HCfomk" target="blank">Sube las fotos del matrimonio aqui</a>
