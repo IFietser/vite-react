@@ -2,7 +2,7 @@ import {useEffect} from "react"
 import "../css/Home.css";
 import Carousel1 from "../components/Carousel1";
 import Carousel2 from "../components/Carousel2";
-import taty from "../assets/kathyseba.png";
+import taty from "../assets/Kathyseba.png";
 import Cuenta from "../assets/Cuenta.png";
 import itinerario from "../assets/itinerario.png";
 import dresscode from "../assets/Dress.png";
