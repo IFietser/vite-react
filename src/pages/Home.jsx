@@ -105,7 +105,7 @@ useEffect(() => {
             <p className="asistencia-text slide-in-right">Si se les complica mucho hacerlo por la página, también pueden hacernos llegar su cariño a través de una transferencia bancaria
             </p><br />
           <img  className = "slide-in-bottom"src={Cuenta} alt="" style={{ maxWidth: "100%", borderRadius: "16px" }} /> <br /><br />
-          <a className="confirma-btn" href="https://1drv.ms/f/c/31fad279eb47ff7f/En-TdRIFZOZGgr8UbJVGY54BHhWMeQWcYAq_Vq6JSezvLg?e=HCfomk" target="blank">Sube las fotos del matrimonio aqui</a>
+          <a className="confirma-btn slide-in-top" href="https://1drv.ms/f/c/31fad279eb47ff7f/En-TdRIFZOZGgr8UbJVGY54BHhWMeQWcYAq_Vq6JSezvLg?e=HCfomk" target="blank">Sube las fotos del matrimonio aqui</a>
         </div>
       </div>
     </section>
