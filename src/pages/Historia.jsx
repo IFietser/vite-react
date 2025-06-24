@@ -27,7 +27,7 @@ useEffect(() => {
         <h1 className="titulo mb-4">
           Compartimos contigo nuestra historia
         </h1>
-        <h3 className="amor text-center slide-in-bottom">Un amor Inquebrantable</h3>
+        <h3 className="amor text-center slide-in-bottom">Un amor que no se rinde</h3>
         <p className="asistencia-text historia slide-in-top">
           En la ciudad de Santiago, Sebastián y Katherine se reencontraron luego de ir en el
           mismo colegio en básica. ✨ Ella con un amor por mejorar la salud de las personas y él un

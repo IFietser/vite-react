@@ -78,7 +78,7 @@ useEffect(() => {
           </div>
           <div className="home-bloque-texto">
             <p className="asistencia-text slide-in-bottom">
-              El lugar de nuestra boda es muy importante para nosotros, y queremos que todos nuestros seres queridos estén allí para compartir este momento tan especial.
+              Nos emociona compartir este día con ustedes y esperamos que puedan acompañarnos en este lugar rodeado de naturaleza y buena vibra
               <span style={{ verticalAlign: "middle" }}>
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="#545646" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 21s-6.7-5.4-9.3-8.1C.7 10.2.7 7.1 3 5.3c2.1-1.6 5.1-1.1 6.7 1 .2.3.5.3.7 0 1.6-2.1 4.6-2.6 6.7-1 2.3 1.8 2.3 4.9.3 7.6C18.7 15.6 12 21 12 21z"/>
@@ -97,8 +97,8 @@ useEffect(() => {
           <h3 className="amor text-center slide-in-right">
          💖 Queridos amigos y familia 💖
         </h3>
-          <p className="asistencia-text">Con mucha alegría queremos contarles que, gracias a Dios, ya tenemos nuestro hogar armado con todo lo esencial, desde la lavadora hasta los detalles más pequeños que hacen acogedor nuestro nido de amor.
-            </p><br />
+          <p className="asistencia-text">Ya construimos nuestro hogar con lo esencial y muchísima ilusión.
+            </p>
             <p className="asistencia-text slide-in-top">Por eso, en vez de regalos materiales, si desean acompañarnos con un detalle, les dejaremos un link, donde podrán hacernos un regalo especial en forma de aporte. Ese gesto será parte de nuestros nuevos sueños, de los viajes por venir y de los recuerdos que construiremos juntos como familia.
             </p><br />
              <a className="confirma-btn slide-in-top" href="https://milistadenovios.cl/enviar-regalo?id=27278" target="blank">Link de regalos</a>
