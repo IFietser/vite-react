@@ -53,6 +53,21 @@
   background: none;
   box-shadow: none;
 }
+.dresscode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+.dresscode img {
+  width: 100%;
+  max-width: 300px; /* Puedes aumentar este valor si quieres la imagen más grande */
+  height: auto;
+  border-radius: 16px;
+  object-fit: contain;
+  background: none;
+  box-shadow: none;
+}
 .confirma-btn {
   display: inline-block;
   background: #b7b08a;

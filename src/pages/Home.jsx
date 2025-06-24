@@ -5,6 +5,7 @@ import Carousel2 from "../components/Carousel2";
 import taty from "../assets/kathyseba.png";
 import Cuenta from "../assets/Cuenta.png";
 import itinerario from "../assets/itinerario.png";
+import dresscode from "../assets/Dress.png";
 
 
 export default function Home() {
@@ -63,6 +64,9 @@ useEffect(() => {
             </div>
           </div>
         </div>
+        <div className="dresscode slide-in-bottom">
+          <img src={dresscode} alt="" />
+        </div>
         <div className="itinerario slide-in-top">
           <img src={itinerario} alt="itinerario" />
         </div>
@@ -97,7 +101,7 @@ useEffect(() => {
             </p><br />
             <p className="asistencia-text slide-in-top">Por eso, en vez de regalos materiales, si desean acompañarnos con un detalle, les dejaremos un link, donde podrán hacernos un regalo especial en forma de aporte. Ese gesto será parte de nuestros nuevos sueños, de los viajes por venir y de los recuerdos que construiremos juntos como familia.
             </p><br />
-             <a className="confirma-btn slide-in-top" href="" target="blank">Link de regalos</a>
+             <a className="confirma-btn slide-in-top" href="https://milistadenovios.cl/enviar-regalo?id=27278" target="blank">Link de regalos</a>
             <p className="asistencia-text slide-in-right">Si se les complica mucho hacerlo por la página, también pueden hacernos llegar su cariño a través de una transferencia bancaria
             </p><br />
           <img  className = "slide-in-bottom"src={Cuenta} alt="" style={{ maxWidth: "100%", borderRadius: "16px" }} />
