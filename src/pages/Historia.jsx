@@ -1,14 +1,34 @@
 import "../css/Historia.css";
+import { useEffect } from "react";
 
 export default function Historia() {
+
+useEffect(() => {
+  const elements = document.querySelectorAll('.slide-in-top, .slide-in-bottom');
+  const observer = new window.IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('slide-in-visible');
+        } else {
+          entry.target.classList.remove('slide-in-visible');
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+  elements.forEach(el => observer.observe(el));
+  return () => observer.disconnect();
+}, []);
+
   return (
     <section className="confirmacion-section">
       <div className="confirmacion-container text-center">
         <h1 className="titulo mb-4">
           Compartimos contigo nuestra historia
         </h1>
-        <h3 className="amor text-center">Un amor Inquebrantable</h3>
-        <p className="asistencia-text historia">
+        <h3 className="amor text-center slide-in-bottom">Un amor Inquebrantable</h3>
+        <p className="asistencia-text historia slide-in-top">
           En la ciudad de Santiago, Sebastián y Katherine se reencontraron luego de ir en el
           mismo colegio en básica. ✨ Ella con un amor por mejorar la salud de las personas y él un
           apasionado del deporte. 🌿 Desde el primer encuentro ambos sintieron una conexión

@@ -67,7 +67,7 @@
   background: #8f8769;
   color: #fff;
 }
-/* ...existing code... */
+
 .carrusel-wrapper {
   display: flex;
   justify-content: center;
@@ -80,4 +80,32 @@
   overflow: hidden;
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
 }
-/* ...existing code... */
+
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(60px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+
+.slide-in-top {
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+
+.slide-in-bottom {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+
+.slide-in-visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}

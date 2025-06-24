@@ -77,3 +77,19 @@
   overflow: hidden;
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
 }
+.slide-in-top {
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+
+.slide-in-bottom {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.7s, transform 0.7s;
+}
+
+.slide-in-visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
