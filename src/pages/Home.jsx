@@ -65,7 +65,7 @@ useEffect(() => {
           </div>
         </div>
         <div className="dresscode slide-in-bottom">
-          <img src={dresscode} alt="" />
+          <img src={dresscode} alt="dresscode" />
         </div>
         <div className="itinerario slide-in-top">
           <img src={itinerario} alt="itinerario" />
